@@ -27,6 +27,7 @@ def jogar():
                 tentativas = 10
             if dificuldade == 3:
                 tentativas = 5
+
             elif(1 < dificuldade > 3):
                 print("*****Você escolheu uma dificuldade inválida*****")
                 print("Como castigo, a dificuldade escolhida será a difícil")
